@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.archi.archiinfo.journey">
+
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_CALENDAR" />
+    <uses-permission android:name="android.permission.READ_CALENDAR" />
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.archi.archiinfo.journey.MainActivity"
+            android:label="@string/app_name">
+        </activity>
+
+        <activity
+            android:name="com.archi.archiinfo.journey.SplashActivity"
+            android:configChanges="locale"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.archi.archiinfo.journey.ContactUsActivity"
+            android:configChanges="locale"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.archi.archiinfo.journey.JhonyAndHistoryActivity"
+            android:configChanges="locale"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.archi.archiinfo.journey.AboutUsActivity"
+            android:configChanges="locale"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.archi.archiinfo.journey.ArticlesActivity"
+            android:configChanges="locale"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.archi.archiinfo.journey.EventsActivity"
+            android:configChanges="locale"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.archi.archiinfo.journey.ArticlesDetailsActivity"
+            android:configChanges="locale"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.archi.archiinfo.journey.ArticleListActivity"
+            android:configChanges="locale"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.archi.archiinfo.journey.calendar.MainCalendar"
+            android:configChanges="locale"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.archi.archiinfo.journey.VideoWatchActivity"
+            android:configChanges="locale"
+            android:label="@string/app_name" />
+    </application>
+
+</manifest>

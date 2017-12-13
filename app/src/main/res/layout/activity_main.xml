@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_brown"
+    android:orientation="vertical"
+    tools:context="com.archi.archiinfo.journey.MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_150sdp"
+        android:scaleType="fitXY"
+        android:src="@drawable/app_logo" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/tvArticle_MainActivity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:maxLines="1"
+                android:text="@string/articles"
+                android:textColor="@color/text_brown"
+                android:textSize="@dimen/_18sdp" />
+
+            <TextView
+                android:id="@+id/tvAboutus_MainActivity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/about_us"
+                android:textAlignment="inherit"
+                android:textColor="@color/text_brown"
+                android:textSize="@dimen/_18sdp" />
+
+
+            <TextView
+                android:id="@+id/tvJohnnyHistory_MainActivity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:maxLines="1"
+                android:text="@string/johney_history"
+                android:textAlignment="inherit"
+                android:textColor="@color/text_brown"
+                android:textSize="@dimen/_18sdp" />
+
+
+            <TextView
+                android:id="@+id/tvEvents_MainActivity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/events"
+                android:textColor="@color/text_brown"
+                android:textSize="@dimen/_18sdp" />
+
+
+            <TextView
+                android:id="@+id/tvContctus_MainActivity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:maxLines="1"
+                android:text="@string/contact_us"
+                android:textColor="@color/text_brown"
+                android:textSize="@dimen/_18sdp" />
+            <!--
+                        <TextView
+                            android:id="@+id/tvContctus_MainActivity_1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:maxLines="1"
+                            android:padding="@dimen/_5sdp"
+                            android:text="Hello Bhai"
+                            android:textColor="@color/text_brown"
+                            android:textSize="@dimen/_18sdp" />-->
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
+

@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:agendaCalendar="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/coordinatorLayout_EventsActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_app">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+            <!--xmlns:tools="http://schemas.android.com/tools"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:orientation="vertical"-->
+            <!--tools:context="com.archirayan.danote.EventCalendar">-->
+
+
+            <!--<android.support.v4.widget.NestedScrollView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:fillViewport="true">-->
+
+            <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:background="@drawable/bg_app"-->
+            <!--android:orientation="vertical"-->
+            <!--android:padding="@dimen/_15sdp">-->
+
+            <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:background="@drawable/calendar_shape"-->
+            <!--android:orientation="horizontal"-->
+            <!--android:padding="@dimen/_15sdp">-->
+
+            <!--<TextView-->
+            <!--android:id="@+id/tvBack"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_weight="1"-->
+            <!--android:text="Back"-->
+            <!--android:textColor="@color/item_bg"-->
+            <!--android:textSize="@dimen/_15sdp"-->
+            <!--android:textStyle="bold" />-->
+
+            <!--<TextView-->
+            <!--android:id="@+id/tv_dateshow"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_weight="3"-->
+            <!--android:gravity="center"-->
+            <!--android:text="Dec - 2016"-->
+            <!--android:textColor="@color/item_bg"-->
+            <!--android:textSize="@dimen/_15sdp"-->
+            <!--android:textStyle="bold" />-->
+
+
+            <!--<TextView-->
+            <!--android:id="@+id/tvNext"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_weight="1"-->
+            <!--android:text="Next"-->
+            <!--android:textColor="@color/item_bg"-->
+            <!--android:textSize="@dimen/_15sdp"-->
+            <!--android:textStyle="bold" />-->
+
+
+            <!--</LinearLayout>-->
+
+
+            <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:orientation="vertical">-->
+
+
+            <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:background="@drawable/calendar_shape"-->
+            <!--android:orientation="horizontal"-->
+
+            <!--android:padding="@dimen/_8sdp">-->
+
+            <!--<com.github.sundeepk.compactcalendarview.CompactCalendarView xmlns:app="http://schemas.android.com/apk/res-auto"-->
+            <!--android:id="@+id/compactcalendar_view"-->
+            <!--android:layout_width="fill_parent"-->
+            <!--android:layout_height="250dp"-->
+            <!--app:compactCalendarBackgroundColor="@color/item_bg"-->
+            <!--app:compactCalendarCurrentDayBackgroundColor="#BFBDBB"-->
+            <!--app:compactCalendarCurrentSelectedDayBackgroundColor="#535250"-->
+            <!--app:compactCalendarMultiEventIndicatorColor="#fff"-->
+            <!--app:compactCalendarTextColor="#0E0A04"-->
+            <!--app:compactCalendarTextSize="12sp" />-->
+
+
+            <!--</LinearLayout>-->
+
+
+            <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:background="@drawable/calendar_shape"-->
+            <!--android:gravity="end"-->
+            <!--android:orientation="horizontal"-->
+            <!--android:padding="@dimen/_8sdp">-->
+
+
+            <!--<LinearLayout-->
+            <!--android:id="@+id/linearCalendarOne"-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_weight="1"-->
+
+            <!--android:gravity="center"-->
+            <!--android:orientation="horizontal">-->
+
+            <!--<com.github.sundeepk.compactcalendarview.CompactCalendarView xmlns:app="http://schemas.android.com/apk/res-auto"-->
+            <!--android:id="@+id/calendar_one"-->
+            <!--android:layout_width="@dimen/_100sdp"-->
+            <!--android:layout_height="@dimen/_100sdp"-->
+            <!--android:layout_marginRight="@dimen/_15sdp"-->
+            <!--app:compactCalendarBackgroundColor="@color/item_bg"-->
+            <!--app:compactCalendarMultiEventIndicatorColor="@color/white"-->
+            <!--app:compactCalendarTextColor="#0E0A04"-->
+            <!--app:compactCalendarTextSize="8sp" />-->
+
+            <!--</LinearLayout>-->
+
+
+            <!--<LinearLayout-->
+            <!--android:id="@+id/linearCalendarTwo"-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:layout_weight="1"-->
+            <!--android:gravity="center"-->
+            <!--android:orientation="horizontal">-->
+
+            <!--<com.github.sundeepk.compactcalendarview.CompactCalendarView xmlns:app="http://schemas.android.com/apk/res-auto"-->
+
+            <!--android:id="@+id/calndar_two"-->
+            <!--android:layout_width="@dimen/_100sdp"-->
+            <!--android:layout_height="@dimen/_100sdp"-->
+            <!--android:padding="@dimen/_10sdp"-->
+            <!--app:compactCalendarBackgroundColor="@color/item_bg"-->
+            <!--app:compactCalendarCurrentSelectedDayBackgroundColor="#535250"-->
+            <!--app:compactCalendarMultiEventIndicatorColor="@color/white"-->
+            <!--app:compactCalendarTextColor="#0E0A04"-->
+            <!--app:compactCalendarTextSize="8sp" />-->
+            <!--</LinearLayout>-->
+            <!--</LinearLayout>-->
+
+
+            <!--</LinearLayout>-->
+
+            <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:layout_marginTop="@dimen/_15sdp"-->
+            <!--android:orientation="vertical">-->
+
+
+            <!--<android.support.v7.widget.RecyclerView-->
+            <!--android:id="@+id/recycler_view_danotelist"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="425dp"-->
+            <!--android:scrollbars="vertical"-->
+            <!--android:visibility="gone" />-->
+
+
+            <!--</LinearLayout>-->
+
+
+            <!--</LinearLayout>-->
+            <!--</android.support.v4.widget.NestedScrollView>-->
+        <!--</LinearLayout>-->
+    </RelativeLayout>
+</android.support.design.widget.CoordinatorLayout>

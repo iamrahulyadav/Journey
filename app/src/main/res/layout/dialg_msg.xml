@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_gravity="center"
+    android:layout_margin="@dimen/_10sdp"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/dailog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/et_login_bg"
+        android:orientation="vertical">
+
+        <TextView
+                android:id="@+id/txt_dia"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:text="انقر فوق التاريخ للحصول على معلومات"
+                android:textSize="15dp"
+                android:textStyle="bold"/>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@android:color/transparent"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/btn_yes"
+                    android:layout_width="100dp"
+                    android:layout_height="30dp"
+                    android:background="@android:color/transparent"
+                    android:clickable="true"
+                    android:text="Ok"
+                    android:textColor="@color/blue_dark"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>

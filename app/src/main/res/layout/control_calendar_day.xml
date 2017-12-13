@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right" />
+
+    <TextView
+        android:id="@+id/dateSquare"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/square_corner"
+        android:gravity="left|top"
+        android:maxLength="10"
+        android:minHeight="60dp"
+        android:text="0"
+        android:textAppearance="@android:style/TextAppearance.Medium"
+        android:textSize="@dimen/_12sdp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        android:id="@+id/dateSquare2"
+        android:minHeight="60dp"
+        android:text="لم يتم العثور على أي حدث"
+        android:textAppearance="@android:style/TextAppearance.Medium"
+        android:textSize="@dimen/_12sdp" />
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        android:id="@+id/dateSquare3Date"
+        android:minHeight="60dp"
+        android:text="qp"
+        android:textAppearance="@android:style/TextAppearance.Medium"
+        android:textSize="@dimen/_12sdp" />
+
+
+
+</LinearLayout>

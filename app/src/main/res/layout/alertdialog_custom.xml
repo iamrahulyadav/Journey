@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_root"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:padding="10dp" >
+
+    <EditText
+        android:id="@+id/editTextDialogUserInput"
+        android:layout_width="match_parent"
+        android:inputType="textEmailAddress"
+        android:hint="Please enter your email"
+        android:textColor="@color/black"
+        android:paddingLeft="@dimen/_5sdp"
+        android:textColorHint="@color/black"
+        android:background="@drawable/edittxt_border"
+        android:layout_height="wrap_content" >
+
+    </EditText>
+
+</LinearLayout>
